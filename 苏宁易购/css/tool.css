@@ -1,0 +1,12 @@
+.ico{
+	background: url(../img/bg.png) no-repeat;
+}
+.logo{
+	background: url(../img/bg1.png) no-repeat;
+}
+.clearfix{zoom:1}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}

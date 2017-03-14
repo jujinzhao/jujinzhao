@@ -1,0 +1,25 @@
+.ico{
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="css/img/bg.png", sizingMethod="crop");
+}
+.top_head_shang form input{
+	padding-top: 10px;
+}
+.head_right{
+	vertical-align: top;
+}
+.text_info8 .ico{
+	zoom: 1;
+}
+.bottom_right{
+	float: left;
+	width: 782px;
+}
+.product{
+	width: 782px;
+}
+.details{
+	width: 782px;
+}
+.bottom_left_bottom .share,.bottom_left_bottom .number{display: inline;}
+/*.bottom_left_bottom{overflow: hidden;width: 400px;}*/

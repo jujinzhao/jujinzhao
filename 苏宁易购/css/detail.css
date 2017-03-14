@@ -1,0 +1,653 @@
+.head{
+	width: 100%;
+	height: 35px;
+	margin: 0 auto;
+}
+.head_top_box{
+	width: 100%;
+	background-color: #f5f5f5;
+}
+.head_top{
+	height: 35px;
+	width: 1190px;
+	border-bottom: 1px solid #eee;
+	background-color: #f5f5f5;
+	margin: 0 auto;
+}
+.head_top .head_top_left{
+	font: 12px/16px "微软雅黑";
+	float: left;
+}
+.head_top .fanhui{
+	position: relative;
+	margin-top: 12px;
+	width: 82px;
+	padding-left: 18px;
+	height: 18px;
+	border-right:1px solid #eee ;
+	float: left;
+}
+.head_top .fanhui a{
+	color: #666;
+}
+.head_top .daohang a{
+	color: #666;
+}
+.head_top .daohang{
+	position: relative;
+	margin-top: 12px;
+	width: 76px;
+	padding-left: 19px;
+	height: 18px;
+	float: left;
+}
+.fh{
+	position: absolute;
+	left: 0;
+	top: -1px;
+	width: 16px;
+	height: 14px;
+	background-position: -29px -235px;
+	overflow: hidden;
+}
+.span{
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	left: 67px;
+	top: -5px;
+	background-position: 0 -1519px;
+	overflow: hidden;
+}
+.xiala{
+	width: 7px;
+	height: 4px;
+	position: absolute;
+	right: 0;
+	top: 6px;
+	background-position: 0 -1563px;
+	overflow: hidden;
+}
+.head_top_right{
+	width: 650px;
+	height: 35px;
+	float: right;
+}
+.head_top_right .dl a{
+	margin:1px 13px 0 0;
+	font:12px/34px "微软雅黑";
+	color: #666;
+	float: left;
+}
+.head_top_right .zc a{
+	float: left;
+	margin:1px 13px 0 0;
+	font:12px/34px "微软雅黑";
+	color: #666;
+}
+.head_top_right .wddd{
+	margin-right: 20px;
+	position: relative;
+	float: left;
+	width: 68px;
+	height: 35px;
+}
+.head_top_right .wddd a{
+	float: left;
+	margin:1px 0 0 0;
+	font:12px/34px "微软雅黑";
+	color: #666;
+}
+.head_top_right .wddd .xl{
+	width: 7px;
+	height: 4px;
+	position: absolute;
+	right:7px;
+	top: 17px;
+	background-position: 0 -1563px;
+	overflow: hidden;
+}
+.head_top_right .wdyg{
+	margin-right: 20px;
+	position: relative;
+	float: left;
+	width: 68px;
+	height: 35px;
+}
+.head_top_right .wdyg a{
+	float: left;
+	margin:1px 0 0 0;
+	font:12px/34px "微软雅黑";
+	color: #666;
+}
+.head_top_right .wdyg .xl{
+	width: 7px;
+	height: 4px;
+	position: absolute;
+	right:7px;
+	top: 17px;
+	background-position: 0 -1563px;
+	overflow: hidden;
+}
+.head_top_right .gwc{
+	margin-right: 13px;
+	position: relative;
+	float: left;
+	width: 62px;
+	padding-left: 23px;
+	height: 35px;
+}
+.head_top_right .gwc a{
+	float: left;
+	margin:1px 0 0 0;
+	font:12px/34px "微软雅黑";
+	color: #666;
+}
+.head_top_right .gwc .xl{
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	right:8px;
+	top: 3px;
+	background-position: 0 -629px;
+	overflow: hidden;
+}
+.head_top_right .gwc .span{
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	left: 0;
+	top: 11px;
+	background-position: 0 -613px;
+	overflow: hidden;
+}
+.head_top_right .sjsn{
+	margin-right: 20px;
+	position: relative;
+	float: left;
+	width: 62px;
+	padding-left: 23px;
+	height: 35px;
+}
+.head_top_right .sjsn .span{
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	left: 0;
+	top: 11px;
+	background-position: 0 -645px;
+	overflow: hidden;
+}
+.head_top_right .sjsn a{
+	float: left;
+	margin:1px 13px 0 0;
+	font:12px/34px "微软雅黑";
+	color: #666;
+}
+.head_top_right .sjsn .xl{
+	width: 7px;
+	height: 4px;
+	position: absolute;
+	right:2px;
+	top: 17px;
+	background-position: 0 -1563px;
+	overflow: hidden;
+}
+.head_top_right .yfb a{
+	float: left;
+	margin:1px 20px 0 0;
+	font:12px/34px "微软雅黑";
+	color: #666;
+}
+.head_top_right .zqcg a{
+	float: left;
+	margin:1px 20px 0 0;
+	font:12px/34px "微软雅黑";
+	color: #666;
+}
+.head_top_right .fwzx{
+	position: relative;
+	float: left;
+	width: 48px;
+	height: 35px;
+}
+.head_top_right .fwzx a{
+	float: left;
+	margin:1px 0 0 0;
+	font:12px/34px "微软雅黑";
+	color: #666;
+}
+.head_top_right .fwzx .xl{
+	width: 7px;
+	height: 4px;
+	position: absolute;
+	right:-10px;
+	top: 17px;
+	background-position: 0 -1563px;
+	overflow: hidden;
+}
+.content{
+	width: 100%;
+}
+.content_top{
+	position: relative;
+	width: 1190px;
+	height: 140px;
+	margin: 0 auto;
+}
+.head_left{
+	width: 980px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.top_head_shang{
+	width: 980px;
+	height: 110px;
+	position: relative;
+	
+}
+.top_head_shang .h1{
+	float: left;
+	margin-top: 20px;
+	width: 190px;
+	height: 0;
+	padding-top: 60px;
+	overflow: hidden;
+	background-position: 0 0;
+}
+
+.top_head_shang form{
+	position: absolute;
+	width: 600px;
+	height: 72px;
+	padding-top: 28px;
+	top: 0;
+	left: 370px;
+}
+.top_head_shang .fdj{
+	width: 17px;
+	height: 16px;
+	position: absolute;
+	top: 39px;
+	left: 8px;
+	overflow: hidden;
+	background-position: 0 -1547px;
+}
+.top_head_shang form #sousuo{
+	float: left;
+	width: 468px;
+	padding-left: 30px;
+	height: 34px;
+	border: 2px solid #ffaa00;
+	border-right:0 ;
+}
+.top_head_shang form label span{
+	display: inline-block;
+	width: 98px;
+	height:38px;
+	font: 16px/38px "微软雅黑";
+	color: #fff;
+	margin-left: -8px;
+	vertical-align: -2px;
+	text-align: center;
+	background-color: #FFAA00;
+}
+.top_head_shang form .guild a{
+	font: 12px/28px "微软雅黑";
+	color: #333;
+}
+.top_head_shang form .guild span{
+	color: #ff6600;
+}
+.top_head_xia{
+	width: 1190px;
+	height: 30px;
+}
+.top_head_xia .menu{
+	position: relative;
+	float: left;
+	width: 157px;
+	height: 29px;
+	padding: 1px 0 0 33px;
+	background-color: #222;
+}
+.top_head_xia li{
+	float: left;
+	margin: 0 12px;
+}
+.top_head_xia li a{
+	font: 13px/29px "微软雅黑";
+	color: #333;
+}
+.top_head_xia .menu{
+	margin-left: 0;
+}
+.top_head_xia .menu a{
+	font:bold 12px/29px "微软雅黑";
+	color: #fff;	
+}
+.top_head_xia .menu .ico{
+	width: 11px;
+	height: 6px;
+	position: absolute;
+	top: 16px;
+	right: 13px;
+	background-position: -29px -249px;
+	overflow: hidden;
+}
+.top_head_xia .honghz{
+	position: relative;
+}
+.top_head_xia .honghz .ico{
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	right: -15px;
+	top: 2px;
+	background-position: 0 -1533px;
+	overflow: hidden;
+}
+.head_right{
+	overflow: hidden;
+	width: 180px;
+	height: 126px;
+	padding-left: 30px;
+	padding-top: 10px;
+	float: right;
+}
+.head_right div{
+	font: 12px/24px "微软雅黑";
+	color: #ff9900;
+	margin:0 0 5px 20px;
+}
+.head_right span{
+	font-weight: bold;
+}
+.content_bottom{
+	width: 100%;
+	border-top:2px solid #333 ;
+}
+.xqg70{
+	width: 1190px;
+	height: 703px;
+	margin: 0 auto;
+}
+.xqg_top{
+	width: 1190px;
+	height: 40px;
+}
+.xqg_top a{
+	font: 12px/40px "微软雅黑";
+	color: #999999;
+}
+.xqg_top .yi{
+	position: relative;
+	float: left;
+	margin-right: 6px;
+	width: 36px;
+	height: 40px;
+}
+.xqg_top .yi .span{
+	width: 5px;
+	height: 9px;
+	position: absolute;
+	left: 31px;
+	top: 15px;
+	background-position: -29px -255px;
+	overflow: hidden;
+}
+.xqg_top .er{
+	position: relative;
+	float: left;
+	margin-right: 6px;
+	width: 48px;
+	height: 40px;
+}
+.xqg_top .er .span{
+	width: 5px;
+	height: 9px;
+	position: absolute;
+	left: 43px;
+	top: 15px;
+	background-position: -29px -255px;
+	overflow: hidden;
+}
+.xqg_top .san{
+	position: relative;
+	float: left;
+	margin-right: 6px;
+	width: 114px;
+	height: 40px;
+}
+.xqg_top .san .zi{
+	font: 12px/18px "微软雅黑";
+	display: inline-block;
+	margin-top: 10px;
+	width: 93px;
+	padding-left: 7px;
+	height: 18px;
+	border: 1px solid #ddd;
+}
+.xqg_top .san .span{
+	width: 5px;
+	height: 9px;
+	position: absolute;
+	left: 109px;
+	top: 15px;
+	background-position: -29px -255px;
+	overflow: hidden;
+}
+.xqg_top .san .sanjiao{
+	width: 8px;
+	height: 4px;
+	position: absolute;
+	left: 87px;
+	top: 18px;
+	background-position: -29px -264px;
+	overflow: hidden;
+}
+.xqg_top .si{
+	position: relative;
+	float: left;
+	margin-right: 6px;
+	width: 78px;
+	height: 40px;
+}
+.xqg_top .si .zi{
+	font: 12px/18px "微软雅黑";
+	display: inline-block;
+	margin-top: 10px;
+	width: 56px;
+	padding-left: 8px;
+	height: 18px;
+	border: 1px solid #ddd;
+}
+.xqg_top .si .span{
+	width: 5px;
+	height: 9px;
+	position: absolute;
+	left: 73px;
+	top: 15px;
+	background-position: -29px -255px;
+	overflow: hidden;
+}
+.xqg_top .si .sanjiao{
+	width: 8px;
+	height: 4px;
+	position: absolute;
+	left: 51px;
+	top: 18px;
+	background-position: -29px -264px;
+	overflow: hidden;
+}
+.xqg_top .wu{
+	position: relative;
+	float: left;
+	margin-right: 6px;
+	width: 104px;
+	height: 40px;
+}
+.xqg_top .wu .zi{
+	font: 12px/18px "微软雅黑";
+	display: inline-block;
+	margin-top: 10px;
+	width: 82px;
+	padding-left: 8px;
+	height: 18px;
+	border: 1px solid #ddd;
+}
+.xqg_top .wu .span{
+	width: 5px;
+	height: 9px;
+	position: absolute;
+	left: 99px;
+	top: 15px;
+	background-position: -29px -255px;
+	overflow: hidden;
+}
+.xqg_top .wu .sanjiao{
+	width: 8px;
+	height: 4px;
+	position: absolute;
+	left: 77px;
+	top: 18px;
+	background-position: -29px -264px;
+	overflow: hidden;
+}
+.xqg_top .liu{
+	float: left;
+}
+.xqg_bottom{
+	width: 1188px;
+	height: 662px;
+	border: 1px solid #ddd;
+}
+.bottom_left{
+	float: left;
+	width: 400px;
+	height: 662px;
+	border-right:1px solid #ddd;
+	/*overflow: hidden;*/
+}
+.bottom_left_top{
+	width: 400px;
+	height: 482px;
+	border-bottom: 1px solid #ddd;
+}
+.bottom_left_top .submenu{
+	position: relative;
+	width: 335px;
+	height: 62px;
+	padding: 0 31px 10px 34px;
+}
+.bottom_left_top .submenu div{
+	border: 1px solid #ddd;
+	float: left;
+	margin-right:5px;
+}
+.bottom_left_top .submenu div:hover{
+	border: 1px solid #ff7700;
+}
+.bottom_left_top .submenu .zuo{
+	width: 12px;
+	height: 20px;
+	position: absolute;
+	left: 10px;
+	top: 21px;
+	background-position: -29px -268px;
+}
+.bottom_left_top .submenu .you{
+	width: 12px;
+	height: 20px;
+	position: absolute;
+	right: 10px;
+	top: 21px;
+	background-position: -29px -288px;
+}
+.bottom_left_bottom{
+	font: 12px/14px "微软雅黑";
+	color: #bbb;
+}
+.bottom_left_bottom .number{
+	float: left;
+	margin: 11px 0 0 10px;
+}
+.bottom_left_bottom .share{
+	float: right;
+	margin: 11px 10px 0 0;
+}
+.bottom_left_bottom .share a{
+	float: left;
+	font: 12px/14px "微软雅黑";
+	color: #999;
+}
+.bottom_left_bottom .xinlang{
+	float: left;
+	margin-left:7px;
+	width: 16px;
+	height: 16px;
+	background-position: -29px -308px;
+}
+.bottom_left_bottom .tenxun{
+	float: left;
+	margin-left:8px;
+	width: 16px;
+	height: 16px;
+	background-position: -29px -324px;
+}
+.bottom_left_bottom .renren{
+	float: left;
+	margin-left:8px;
+	width: 16px;
+	height: 16px;
+	background-position: -29px -340px;
+}
+.bottom_left_bottom .more{
+	float: left;
+	margin-left:11px;
+	margin-top: 5px;
+	width: 8px;
+	height: 4px;
+	background-position: -29px -264px;
+	overflow: hidden;
+}
+.bottom_right{
+	float: right;
+	width: 787px;
+	height: 662px;
+	/*overflow: hidden;*/
+}
+.product{
+	width: 787px;
+	height: 66px;
+}
+.washer{
+	height: 24px;
+	margin-top: 10px;
+	padding-left: 20px;
+}
+.washer a{
+	font:bold 16px/24px "微软雅黑";
+	color: #666;
+}
+.introduce{
+	height: 22px;
+	padding-left: 20px;
+}
+.introduce a{
+	font:bold 12px/22px "微软雅黑";
+	color: #ff6600;
+}
+.details{
+	width: 787px;
+	height: 596px;
+	border-top:2px solid #ffaa00;
+}
+.bottom_left_bottom .number{display: inline;}
+.bottom_left_bottom .share{
+	display: inline;
+}
+.bottom_left_bottom{background: red;}
+.bottom_left_top .submenu{background-color: yellow;width:335px;overflow: hidden;}
+.bottom_left_top .submenu div{background-color: green;}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>画板</title>
+		<link rel="stylesheet" href="css/canvas.css" />
+		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css"/>
+	</head>
+	<body>
+		<main>
+			<div class="left">
+				<div class="logo icon-huaban"></div>
+				<ul class="shape shapes">
+					<h6>形状</h6>
+					<label class="icon-line" action='line'></label>
+					<label class="icon-xiantiao" action='dash'></label>
+					<label class="icon-juxing" action='rect'></label>
+					<label class="icon-circle" action='cicle'></label>
+					<label class="icon-wujiaoxing1" action='polyJ'></label>
+					<label class="icon-iconfontwubianxing" action='poly'></label>
+					<label class="icon-pan_icon" action='pencil'></label>
+					
+				</ul>
+				<ul class="shape tool">
+					<h6>工具</h6>					
+					<label class="icon-xiangpica_s"></label>
+					<label class="icon-wenzi2"></label>
+					<label class="icon-tupian2"></label>				
+					<!--<label class="icon-xiguan"></label>
+					<label class="icon-fangdajing-copy"></label>-->
+					
+				</ul>
+			</div>
+			
+			<div class="right">
+				<div class="top">
+					<ul class="image">
+						<h6>操作</h6>
+						<label class="icon-huaban2 operate"></label>
+						<a href='' class="icon-baocun3 operate"></a>
+						<label class="icon-cancel "></label>
+						
+						
+					</ul>
+					<ul class="image">
+						<h6>图片</h6>
+						<label class="icon-caijian images"></label>
+						<label class="icon-xuanzhuan2"></label>
+						<label class="icon-xianfanxiang images"></label>
+						<label class="icon-tianchong"></label>
+						
+					</ul>
+					
+					<ul class="image">
+						<h6>粗细</h6>
+						<label class="icon-cuxixiantiao"></label>
+					</ul>
+					
+					<ul class="image">
+						<h6>颜色</h6>
+						<label class="icon-miaobian color" active = 'true'></label>
+						<label class="">
+							<input type="color" id="stroke"/>
+						</label>
+						<label class="icon-tianchong2 color" active = 'false'></label>
+						<label>
+							<input type="color"id="fill"/>
+						</label>
+					</ul>
+					<ul class="image">
+						<h6>文字</h6>
+						<label class="family fonts">
+							<select>
+							    <option value="微软雅黑" selected="selected">微软雅黑</di>						
+							     <option value="楷体">楷体</option>						
+							     <option value="苹方">苹方</option>
+							     <option value="宋体">宋体</di>						
+							     <option value="黑体">黑体</option>						
+							     <option value="华文彩云">华文彩云</option>
+							</select>
+
+						</label>
+						<label class="size fonts">
+							<select>
+							    <option value="8px">8</di>						
+							     <option value="9px">9</option>						
+							     <option value="10px">10</option>
+							     <option value="11px">11</di>						
+							     <option value="12px">12</option>						
+							     <option value="14px">14</option>
+							     <option value="16px">16</di>						
+							     <option value="18px">18</option>						
+							     <option value="20px" selected="selected">20</option>
+							     <option value="22px">22</di>						
+							     <option value="24px">24</option>						
+							     <option value="26px">26</option>
+							      <option value="28px">28</option>
+							     <option value="36px">36</di>						
+							     <option value="48px">48</option>						
+							     <option value="72px">72</option>
+							</select>
+						</label>
+						<!--<label class="icon-tianchong2 color" active = 'false'></label>
+						<label>
+							<input type="color"id="fill"/>
+						</label>-->
+					</ul>
+				</div>
+				<div class="bottom">					
+					<canvas width="0" height="0"></canvas>
+					<div class="eraser"></div>
+					<div class="mask"></div>
+					<div class="crop"></div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
+<script src="js/canvas.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/index.js" type="text/javascript" charset="utf-8"></script>

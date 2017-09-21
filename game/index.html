@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>打字小游戏</title>
+	<link rel="stylesheet" href="css/typingGame.css">
+</head>
+<body>
+	<img src="img/t2.jpg" alt="" height="120%" width="100%" margin-top='-50px'>
+	<div class="score">分数：<span>0</span></div>
+	<div class="HP">生命值:<span>10</span></div>
+	<div class="lever">第<span>1</span>关</div>
+	<button class="start">开始游戏</button>
+	<button class="stop">暂停游戏</button>
+	<button class="close">退出游戏</button>
+	<button class="continuee">继续游戏</button>
+
+</body>
+</html>
+<script src='js/typingGame.js'></script>
+<script src='js/function.js'></script>
+<script>
+	window.onload = function(){
+		let aa = new Game();
+		let start = document.querySelector('.start');
+		start.onclick = function(){
+			aa.start();
+			start.style.display = 'none';
+		}
+		let stop = document.querySelector('.stop');
+		stop.onclick = function(){
+			aa.stop();
+		}
+		let continuee = document.querySelector('.continuee');
+		continuee.onclick = function(){
+			aa.continue();
+		}
+		let close = document.querySelector('.close');
+		close.onclick = function(){
+			window.close();
+		}
+
+	}
+</script>
